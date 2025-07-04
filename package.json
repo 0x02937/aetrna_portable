@@ -1,0 +1,25 @@
+{
+  "name": "aetrna-offline-decryptor",
+  "version": "alpha",
+  "description": "Offline decryption tool for Aetrna files",
+  "main": "decrypt_offline.js",
+  "bin": {
+    "decrypt-offline": "./decrypt_offline.js"
+  },
+  "scripts": {
+    "start": "node decrypt_offline.js"
+  },
+  "dependencies": {
+    "@noble/ciphers": "*",
+    "@noble/hashes": "*",
+    "@noble/post-quantum": "*",
+    "@noble/secp256k1": "*",
+    "commander": "*",
+    "pako": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "Aetrna",
+  "license": "MIT"
+} 
